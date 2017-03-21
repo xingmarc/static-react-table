@@ -2,7 +2,7 @@
   "name": "static-react-table",
   "version": "0.0.1",
   "description": "A Simple react table",
-  "main": "index.js",
+  "main": "index.bundle.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xingmarc/static-react-table.git"
