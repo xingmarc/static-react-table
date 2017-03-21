@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xingmarc/static-react-table.git"
+    "url": "git+https://github.com/xingmarc/static-react-table.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
