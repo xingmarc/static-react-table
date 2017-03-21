@@ -6324,13 +6324,8 @@ module.exports = g;
 /* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Table = __webpack_require__(20);
-var Column = __webpack_require__(19);
-
-module.exports = {
-	Table: Table,
-	Column: Column
-}
+"use strict";
+Object.defineProperty(exports,'__esModule',{value:!0}),exports.Column=exports.Table=void 0;var _Table=__webpack_require__(20),_Table2=_interopRequireDefault(_Table),_Column=__webpack_require__(19),_Column2=_interopRequireDefault(_Column);function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}exports.Table=_Table2.default,exports.Column=_Column2.default;
 
 /***/ })
 /******/ ]);
