@@ -1,4 +1,7 @@
-import Table from './Table.js'
-import Column from './Column.js'
+var Table = require('./Table.js')
+var Column = require('./Column.js')
 
-export { Table, Column }
+module.exports = {
+	Table : Table,
+	Column : Column
+}
