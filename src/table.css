@@ -1,0 +1,22 @@
+
+.simple-react-table {
+	border-collapse: collapse;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+}
+
+.simple-react-rable__header-row {}
+.simple-react-rable__header-row th {
+	padding: 8px 6px 6px 8px; 
+	font-weight: bold;
+	border-bottom: 1px solid #d9d9d9;
+	min-width: 100px;
+}
+
+
+.simple-react-rable__row {}
+.simple-react-rable__row td{
+	padding: 8px 6px 6px 8px; 
+	border-bottom: 1px solid #d9d9d9;
+	min-width: 100px;
+}
