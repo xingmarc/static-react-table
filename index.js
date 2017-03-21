@@ -1,7 +1,1 @@
-var Table = require('./dist/table.boundle.js')
-var Column = require('./dist/column.boundle.js')
-
-module.export = {
-	Table: Table,
-	Column: Column
-}
+'use strict';Object.defineProperty(exports,'__esModule',{value:!0}),exports.Column=exports.Table=void 0;var _Table=require('./Table.js'),_Table2=_interopRequireDefault(_Table),_Column=require('./Column.js'),_Column2=_interopRequireDefault(_Column);function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}exports.Table=_Table2.default,exports.Column=_Column2.default;
