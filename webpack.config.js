@@ -1,6 +1,8 @@
 var webpack = require('webpack')
 var path = require('path')
 
+
+
 module.exports = {
 	devtool: 'source-map',
 	entry: './src/index.js',
@@ -28,14 +30,15 @@ module.exports = {
 				'NODE_ENV': JSON.stringify('production')
 			}
 		}),
-		new webpack.optimize.UglifyJsPlugin({
-			comments: false,
-			compress: {
-				warnings: false
-			}
-		}),
-		new webpack.LoaderOptionsPlugin({
-			minimize: true
-		})
-	]
+		new webpack.optimize.UglifyJsPlugin()
+	],
+	externals:{
+		react:{
+			root: 'React',
+			commonjs2: 'react',
+			commonjs: 'react',
+			amd: 'react',
+			umd: 'react',
+		}
+	}
 }
