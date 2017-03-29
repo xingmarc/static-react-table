@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import TableRow from './TableRow.js'
 import composeClassNames from './composeClassNames.js'
+import './table.css'
 
 export default class Table extends Component {
 	render () {

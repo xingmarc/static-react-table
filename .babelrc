@@ -1,5 +1,5 @@
 {
-  "presets": ["es2015", "react", "babili", ["env", {
+  "presets": ["es2015", "react", ["env", {
       "targets": {
         "browsers": ["last 2 versions", "safari >= 7"]
       }
